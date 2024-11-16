@@ -1,0 +1,109 @@
+/* Estilos retro para la lista de contactos */
+.retro-title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4b3b2a;
+    text-shadow: 2px 2px #d0b392;
+}
+
+.retro-list-group {
+    list-style-type: none;
+    padding: 0;
+}
+
+.retro-list-item {
+    background-color: #f1e0b0;
+    border: 2px solid #4b3b2a;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.retro-avatar {
+    border: 3px solid #4b3b2a;
+    border-radius: 50%;
+}
+
+.retro-contact-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #4b3b2a;
+}
+
+.retro-contact-info {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #4b3b2a;
+}
+
+.retro-action-btn {
+    background-color: #a68255;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.retro-action-btn:hover {
+    background-color: #4b3b2a;
+}
+
+/* Estilos retro para los modales */
+.retro-modal-content {
+    background-color: #f1e0b0;
+    border: 4px solid #4b3b2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.retro-modal-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #4b3b2a;
+}
+
+.retro-input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    border: 2px solid #4b3b2a;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.retro-btn-close {
+    background-color: #4b3b2a;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.retro-btn-secondary, .retro-btn-primary {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-left: 10px;
+}
+
+.retro-btn-primary {
+    background-color: #4b3b2a;
+    color: #fff;
+}
+
+.retro-btn-secondary {
+    background-color: #a68255;
+    color: #fff;
+}
+
+.retro-btn-primary:hover {
+    background-color: #382a20;
+}
+
+.retro-btn-secondary:hover {
+    background-color: #8a6d53;
+}
